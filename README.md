@@ -10,7 +10,7 @@ This project calculates the exchange between different currencies.
 
 You can see this app here: [My Exchange App](http://my-exchange-app.herokuapp.com)
 
-![Exchange](https://raw.githubusercontent.com/rafael_aquino/exchange/master/app/assets/images/screenshot.png)
+![Exchange](https://raw.githubusercontent.com/rafael-acerqueira/exchange/master/app/assets/images/screenshot.png)
 
 ----
 ## Getting Started
