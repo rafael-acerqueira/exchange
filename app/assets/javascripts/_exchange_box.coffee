@@ -15,10 +15,10 @@ calculate = ->
 
 
 $(document).ready ->
-  $('#currency_destination, #currency, #quantity').change ->
+  $('#currency_destination, #currency, #quantity').on 'change keyup', ->
     calculate()
 
-  $('#change-money').on 'click', (event) ->
+  $('#change-money').on 'click', ->
     currency = $("#currency").val();
     $("#currency").val($("#currency_destination").val());
     $("#currency_destination").val(currency);
