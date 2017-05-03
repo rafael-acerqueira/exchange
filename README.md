@@ -1,24 +1,24 @@
-# README
+![ruby](https://img.shields.io/badge/Ruby-2.4.1-red.svg)
+![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg)
+![rails](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Exchange
 
-Things you may want to cover:
+----
+## About this project
+This project calculates the exchange between different currencies.
 
-* Ruby version
+You can see this app here: [My Exchange App](http://my-exchange-app.herokuapp.com)
 
-* System dependencies
+![Exchange](https://raw.githubusercontent.com/rafael_aquino/exchange/master/app/assets/images/screenshot.png)
 
-* Configuration
+----
+## Getting Started
+    1. docker-compose build
+    2. docker-compose run --rm website rake db:create db:migrate
+    3. docker-compose up
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+----
+## Test
+    docker-compose run --rm website rspec
