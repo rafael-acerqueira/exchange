@@ -40,7 +40,7 @@ gem 'rest-client'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 group :development, :test do
   gem 'capybara'
-  gem 'rspec-rails', '~> 3.5'
+  gem 'rspec-rails', '~> 3.5' 
 end
 
 group :development do
